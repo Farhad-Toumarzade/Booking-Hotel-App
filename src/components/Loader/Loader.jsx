@@ -1,6 +1,6 @@
 import { LoaderIcon } from "react-hot-toast";
 
-export default function Loader() {
+function Loader() {
   return (
     <div
       style={{
@@ -16,3 +16,5 @@ export default function Loader() {
     </div>
   );
 }
+
+export default Loader;
