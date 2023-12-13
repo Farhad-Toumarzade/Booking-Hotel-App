@@ -1341,6 +1341,15 @@
       "longitude": "4.812011718750001",
       "host_location": "Profondeville Belgium",
       "id": 2
+    },
+    {
+      "cityName": "Leudeville",
+      "country": "France",
+      "countryCode": "FR",
+      "latitude": "48.57148084215226",
+      "longitude": "2.3263549804687504",
+      "host_location": "Leudeville France",
+      "id": 3
     }
   ]
 }

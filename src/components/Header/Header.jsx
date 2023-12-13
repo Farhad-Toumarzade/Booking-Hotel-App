@@ -7,6 +7,7 @@ import "react-date-range/dist/theme/default.css"; // theme css file
 import { DateRange } from "react-date-range";
 import { format } from "date-fns";
 import {
+  NavLink,
   createSearchParams,
   useNavigate,
   useSearchParams,
@@ -56,6 +57,9 @@ function Header() {
 
   return (
     <div className="header">
+      <NavLink to={`/bookmark`}>
+        <div>bookmark</div>
+      </NavLink>
       <div className="headerSearch">
         <div className="headerSearchItem">
           <MdLocationOn className="headerIcon locationIcon" />
@@ -109,6 +113,9 @@ function Header() {
           </button>
         </div>
       </div>
+      <NavLink to={`/Login`}>
+        <div>Login</div>
+      </NavLink>
     </div>
   );
 }
