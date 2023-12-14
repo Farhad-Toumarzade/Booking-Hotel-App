@@ -1350,6 +1350,15 @@
       "longitude": "2.3263549804687504",
       "host_location": "Leudeville France",
       "id": 3
+    },
+    {
+      "cityName": "Moislains",
+      "country": "France",
+      "countryCode": "FR",
+      "latitude": "49.99912253202744",
+      "longitude": "2.962360382080078",
+      "host_location": "Moislains France",
+      "id": 4
     }
   ]
 }

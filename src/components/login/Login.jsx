@@ -13,7 +13,7 @@ function Login() {
   };
   console.log(user);
   useEffect(() => {
-    if (isAthenticated) navigate("/hotels");
+    if (isAthenticated) navigate("/hotels", { replace: true });
   }, [isAthenticated, navigate]);
   return (
     <div className="loginContainer">
