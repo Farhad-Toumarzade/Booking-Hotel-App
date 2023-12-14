@@ -21,7 +21,7 @@ import {
 import { useAuth } from "../context/AuthProvider";
 
 function Header() {
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
   const [destination, setDestination] = useState(
     searchParams.get("destination") || ""
   );
